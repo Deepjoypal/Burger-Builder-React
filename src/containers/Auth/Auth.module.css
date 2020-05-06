@@ -17,3 +17,13 @@
         width: 500px;
     }
 }
+
+.Btn {
+    height: 100px;
+    padding: 37px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(151, 161, 180);
+    box-shadow: 5px 10px 18px rgb(211, 177, 180);
+    box-sizing: border-box;
+}

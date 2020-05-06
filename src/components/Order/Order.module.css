@@ -1,7 +1,7 @@
 .Order {
     width: 80%;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid rgb(209, 162, 162);
+    box-shadow: 0 2px 3px rgb(189, 144, 144);
     padding: 10px;
     margin: 10px auto;
     box-sizing: border-box;

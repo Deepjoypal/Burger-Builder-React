@@ -6,32 +6,6 @@ import {Route, Redirect} from 'react-router-dom'
 //import * as actions from '../../store/actions/index'
 
 class Checkout extends Component {
-  // state = {
-  //   ingredients: null,
-  //   totalPrice: 0
-  // };
-
-  // componentWillMount() {
-  //     console.log(this.props);
-  //     const query = new URLSearchParams(this.props.location.search);
-  //     const ingredients = {};
-  //     let price = 0;
-  //     for (let param of query.entries()){
-  //         if(param[0] === 'price')
-  //         {
-  //           price = +param[1]
-  //         }
-  //         else {
-  //           ingredients[param[0]] = +param[1];
-  //         }
-         
-  //     }
-  //     this.setState({ingredients: ingredients, totalPrice: price.toFixed(2)});
-  // }
-
-  // componentWillMount() {
-  //   this.props.onInitPurchase();
-  // }
   
   checkoutCancelledhandler = () => {
       this.props.history.goBack();
